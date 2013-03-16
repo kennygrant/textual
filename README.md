@@ -4,14 +4,10 @@ textual
 Package textual provides some simple functions for manipulating text.
 
 
-package textual
-    import "github.com/kennygrant/textual"
-
-    Package textual provides some simple functions for manipulating text.
-
 FUNCTIONS
-_________
+___
 
+```go 
 func ToCamel(text string, private ...bool) string
     Convert string from database column names to corresponding struct field
     names (e.g. field_name to FieldName)
@@ -29,3 +25,4 @@ func Truncate(s string, length int) string
 
 func TruncateWithEllipsis(s string, length int, ellipsis string) string
     Truncate the given string to length using provided ellipsis.
+```
