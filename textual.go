@@ -8,7 +8,7 @@ import (
 
 // Truncate the given string to length using … as ellipsis.
 func Truncate(s string, length int) string {
-	return TruncateWithEllipsis(s,length,"…")
+	return TruncateWithEllipsis(s, length, "…")
 }
 
 // Truncate the given string to length using provided ellipsis.
