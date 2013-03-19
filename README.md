@@ -3,6 +3,7 @@ textual
 
 Package textual provides some simple functions for manipulating text.
 
+[![Build Status](https://secure.travis-ci.org/kennygrant/textual.png)](http://travis-ci.org/kennygrant/textual)
 
 FUNCTIONS
 ___
